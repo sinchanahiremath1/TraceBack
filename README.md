@@ -1,10 +1,10 @@
 # TraceBack
 
-## Project Overview
+Project Overview
 
 TraceBack is a Java-based graphical application designed to help people recover lost belongings. It allows users to submit lost and found item reports and automatically identifies potential matches by comparing item details such as names, categories, colors, descriptions, and locations.
 
-## MVP Features
+MVP Features
 
 - Submit lost-item reports.
 - Submit found-item reports.
@@ -13,7 +13,7 @@ TraceBack is a Java-based graphical application designed to help people recover 
 - Display potential matches through a graphical interface.
 - Save and load reports using CSV files.
 
-## Future Plans (V2.0+)
+Future Plans (V2.0+)
 
 - Assign compatibility scores to potential matches.
 - Filter and sort reports by category, color, location, and date.
@@ -21,7 +21,7 @@ TraceBack is a Java-based graphical application designed to help people recover 
 - Add keyword-based searching within item descriptions.
 - Include timestamps for submitted reports.
 
-## Tech Stack
+ Tech Stack
 
 - Java: Main programming language.
 - Java Swing: Graphical user interface.
@@ -33,26 +33,13 @@ TraceBack is a Java-based graphical application designed to help people recover 
 - Visual Studio Code: Development environment.
 - Git and GitHub: Version control.
 
-## Project Structure
-
-```text
-TraceBack/
-├── src/
-├── tests/
-├── docs/
-│   ├── system-diagram.png
-│   ├── system-diagram.drawio
-│   └── eisenhower-matrix.md
-└── README.md
-```
-
-## Getting Started
+ Getting Started
 
 1. Install the Java Development Kit (JDK).
 2. Clone this repository.
 3. Open the project in Visual Studio Code.
 4. Compile and run the Java application once the source code is available.
 
-## Project Status
+Project Status
 
 Currently in the planning and initial development stage.
