@@ -70,6 +70,22 @@ Users will be able to:
 5. Review matching reports.
 6. Access previously saved reports.
 
+## Roadmap
+
+The following features are planned for future versions:
+
+- [ ] Assign compatibility scores to potential matches.
+- [ ] Filter and sort reports by category, color, location, and date.
+- [ ] Allow users to update an item's status to recovered or returned.
+- [ ] Add keyword-based searching within item descriptions.
+- [ ] Include timestamps for submitted reports.
+
+## Author
+
+Sinchana Hiremath
+
+GitHub: [sinchanahiremath1](https://github.com/sinchanahiremath1)
+
 ## Project Status
 
 Currently in the planning and initial development stage.
