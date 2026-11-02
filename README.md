@@ -46,7 +46,7 @@ No external APIs or third-party libraries are required for the MVP.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/TraceBack.git
+git clone https://github.com/sinchanahiremath1/TraceBack.git
 ```
 
 Navigate to the project directory:
