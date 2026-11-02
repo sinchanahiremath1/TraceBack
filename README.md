@@ -1,45 +1,75 @@
 # TraceBack
 
-Project Overview
+A Java desktop application that helps people recover lost belongings by matching lost and found item reports.
 
-TraceBack is a Java-based graphical application designed to help people recover lost belongings. It allows users to submit lost and found item reports and automatically identifies potential matches by comparing item details such as names, categories, colors, descriptions, and locations.
+## The Problem
 
-MVP Features
+Losing personal belongings and trying to find them through scattered lost-and-found reports can be frustrating and time-consuming. I want to create an application that helps people reconnect with their lost belongings by organizing lost and found reports and automatically identifying potential matches based on item descriptions, colors, categories, and locations.
 
-- Submit lost-item reports.
-- Submit found-item reports.
-- Browse submitted lost and found reports.
-- Automatically compare lost and found items to identify potential matches.
-- Display potential matches through a graphical interface.
-- Save and load reports using CSV files.
+## How It Works
 
-Future Plans (V2.0+)
+TraceBack allows users to submit lost and found item reports through a graphical interface. The application compares the details of lost and found items to identify potential matches and displays the results for users to review.
 
-- Assign compatibility scores to potential matches.
-- Filter and sort reports by category, color, location, and date.
-- Allow users to update an item's status to recovered or returned.
-- Add keyword-based searching within item descriptions.
-- Include timestamps for submitted reports.
+The MVP will include:
 
- Tech Stack
+- Submitting lost-item reports.
+- Submitting found-item reports.
+- Viewing submitted lost and found reports.
+- Automatically comparing item details to identify potential matches.
+- Displaying potential matches through the graphical interface.
+- Saving and loading reports using CSV files.
 
-- Java: Main programming language.
-- Java Swing: Graphical user interface.
-- Java AWT: GUI layouts and components.
-- Java Collections (ArrayList): Managing item reports.
-- Java File I/O: Reading and writing CSV files.
-- Java Time: Managing report dates.
-- CSV: Data storage.
-- Visual Studio Code: Development environment.
-- Git and GitHub: Version control.
+## Tech Stack
 
- Getting Started
+- **Language:** Java
+- **GUI:** Java Swing (`javax.swing`)
+- **GUI Layouts:** Java AWT (`java.awt`)
+- **Data Management:** Java Collections (`java.util.ArrayList`)
+- **File Handling:** Java File I/O (`java.io`)
+- **Date Management:** Java Time (`java.time`)
+- **Data Storage:** CSV files
+- **Development Environment:** Visual Studio Code
+- **Version Control:** Git and GitHub
 
-1. Install the Java Development Kit (JDK).
-2. Clone this repository.
-3. Open the project in Visual Studio Code.
-4. Compile and run the Java application once the source code is available.
+No external APIs or third-party libraries are required for the MVP.
 
-Project Status
+## Setup
+
+### Requirements
+
+- Java Development Kit (JDK)
+- Visual Studio Code
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/TraceBack.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd TraceBack
+```
+
+Open the project in Visual Studio Code and ensure the Java Development Kit is installed.
+
+The application is currently in development. Run instructions will be added once the Java source code and main application class are implemented.
+
+## Usage
+
+Users will be able to:
+
+1. Launch the TraceBack desktop application.
+2. Choose to report a lost item, report a found item, or view existing reports.
+3. Enter the relevant item details.
+4. View potential matches identified by the matching algorithm.
+5. Review matching reports.
+6. Access previously saved reports.
+
+## Project Status
 
 Currently in the planning and initial development stage.
